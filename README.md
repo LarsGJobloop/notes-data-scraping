@@ -10,6 +10,12 @@ Notes taken while trying to do some data scraping.
 
 ## Script Snippets
 
+- **Set Environment Variables from file**
+  **Traditonal .env file*
+  ```sh
+  while IFS= read -r line; do export "$line"; done < <file-name>
+  ```
+
 - **JSON to CSV**
   **Only for flat JSONs*
   ```sh
